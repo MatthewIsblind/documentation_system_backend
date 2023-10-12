@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'documentation-system-flask-app'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9BDA428FD3AE4B6A864B30C1CFF93C38 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_60414A4CA3EC4D8CB371B5A381E52BCE }}
