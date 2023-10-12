@@ -53,7 +53,9 @@ jobs:
         with:
           name: python-app
           path: .
-
+      - name: Install Flask
+        run: pip install Flask
+        
       - name: Start Flask Application
         run: python app.py
           
