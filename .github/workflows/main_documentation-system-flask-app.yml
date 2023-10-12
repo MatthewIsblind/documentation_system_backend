@@ -56,6 +56,9 @@ jobs:
       - name: Install Flask
         run: pip install Flask
         
+      - name: Install Flask-PyMongo
+        run: pip install Flask-PyMongo
+        
       - name: Start Flask Application
         run: python app.py
           
