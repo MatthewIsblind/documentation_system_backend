@@ -53,6 +53,9 @@ jobs:
         with:
           name: python-app
           path: .
+
+      - name: Start Flask Application
+        run: python app.py
           
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
