@@ -18,6 +18,11 @@ app.config["MONGO_URI"] = "mongodb+srv://matet2501:heihei2501@cluster0.mfdvoch.m
 mongo = PyMongo(app)
 
 
+@app.route('/')
+def hello_world():
+    return "Hello World!!"
+
+
 # Endpoint for creating a new patient record
 @app.route('/api/generate_patients', methods=['POST'])
 def create_patient():
